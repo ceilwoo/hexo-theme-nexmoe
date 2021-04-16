@@ -44,7 +44,7 @@ widgets:
 - social
 - category
 - tagcloud
-- archive #settings: widgetAchive
+# - archive #settings: widgetAchive
 # - recent_posts
 # - link #settings: widgetLink
 
@@ -80,7 +80,7 @@ analytics: # 统计系统，目前支持 Google analytics.js 统计、Google Tag
   baidu_site_id: #<ID>
   gtm_container_id: #<ID>
 
-comment: gitalk # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere,DiscussBot
+comment: gitalk # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere,DiscussBot 使用 false 可以关闭
 
 gitalk:
   admin: nexmoe # 拥有对该repo进行操作的 GitHub username
@@ -128,8 +128,6 @@ DiscussBot:
 
 copyright: '<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可'
 
-
-
 # achive widget behavior
 widgetAchive: #文章归档组件
   archive_type: 'year' #按月展示还是按年展示
@@ -142,3 +140,5 @@ widgetLink: #链接组件
   - title: <title>
     img : <img_path>
     link : <url>
+
+sidebar: ''
